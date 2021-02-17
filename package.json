@@ -1,0 +1,22 @@
+{
+  "name": "matrixmath",
+  "version": "1.0.0",
+  "description": "Task 1: Matrix \r ============",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ledwos/MatrixMath.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ledwos/MatrixMath/issues"
+  },
+  "homepage": "https://github.com/Ledwos/MatrixMath#readme",
+  "bin": {
+    "matrixMath": "./bin/index.js"
+  }
+}
