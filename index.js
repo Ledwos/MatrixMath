@@ -2,6 +2,8 @@ var arr = [[1,  2,  3], [5,  6,  7], [8,  9,  4]];
 
 const reducer = (a, b) => a + b;
 
+// For values a-h, see matrix in README
+
 const matrixMath = function(t) {
     let matrixOutput = [];
     // sums a-c
@@ -12,8 +14,8 @@ const matrixMath = function(t) {
     // diagonal d
     let d = t[0][0] + t[1][1] + t[2][2];
     matrixOutput.push(d);
-    // sums e-g (order gfe)
-    for (let x = 0; x< t.length; x++) {
+    // sums e-g (order efg)
+    for (let x = t.length -1; x >= 0; x--) {
         let test = t[0][x] + t[1][x] + t[2][x];
         matrixOutput.push(test);
     }
