@@ -10,11 +10,13 @@ Also, you have to announce the winner if the sum of rows, columns and diagonal a
 Example below
 
     [
-        [1,  2,  3],   | 6
-        [5,  6,  7],   | 18 
-        [8,  9,  4],   | 21
-    ------------------|
-    17   14  17  14     11
+        [1,  2,  3],   | 6   | a
+        [5,  6,  7],   | 18  | b
+        [8,  9,  4],   | 21  | c
+    -------------------|-------
+    17   14  17  14    | 11   
+    --------------------------
+    h    g   f   e     |  d
     ]
 
 You can use node js readline to get the input from user, example here https://nodejs.org/api/readline.html
